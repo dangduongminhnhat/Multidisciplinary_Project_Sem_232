@@ -1,0 +1,127 @@
+.loginPage {
+    /* background: url(https://wallpapercave.com/wp/wp7401476.jpg); */
+    height: 100vh;
+}
+
+.loginContainer {
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputLabel {
+    font-weight: 500;
+    position: relative;
+    right: -25px;
+    top: 20px;
+    padding: 0 5px;
+    background-color: white;
+}
+
+.inputLogin {
+    border: solid 2px green;
+    padding: 10px;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+.inputLogin:focus {
+    box-shadow: 0 0 0 0.2rem lightgreen;
+    border: solid 1px transparent;
+}
+
+.inputLogin::placeholder {
+    font-weight: 500;
+    color: grey;
+    opacity: 0.8;
+}
+
+.loginContainer h2 {
+    color: darkgreen;
+}
+
+.loginContainer .welcome {
+    color: gray;
+    font-weight: 500;
+}
+
+.wallpage {
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* background: url(https://wallpapercave.com/wp/wp7401476.jpg) no-repeat center / cover; */
+    background: url(loginImage.jpg) no-repeat center / cover;
+}
+
+.primaryButton {
+    width: 100%;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+.primaryButton:hover {
+    background-color: darkgreen;
+    color: white;
+    transform: scale(1.03) perspective(1px);
+}
+
+.row {
+    margin: 0;
+}
+
+.signUpNow {
+    cursor: pointer;
+    color: green;
+}
+
+.signUpNow:hover {
+    color: darkgreen;
+}
+
+.loginContent, .signupContent {
+    border: solid 3px green;
+    border-radius: 30px;
+    padding: 50px;
+    animation-name: show;
+    animation-duration: 2s;
+}
+
+.goback {
+    width: fit-content;
+}
+
+.goback:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* .appear {
+    animation-name: hide;
+    animation-duration: 2s;
+} */
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

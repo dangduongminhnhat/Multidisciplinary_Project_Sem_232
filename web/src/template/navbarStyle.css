@@ -1,0 +1,8 @@
+.navbarItem {
+    padding: 10px 0;
+}
+
+.navbarItem:hover {
+    cursor: pointer;
+    background-color: #157347;
+}

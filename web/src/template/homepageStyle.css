@@ -1,0 +1,9 @@
+.homepage {
+    background: url(../components/login/loginImage.jpg) no-repeat center / cover;
+    width: 100wh;
+    height: 100vh;
+}
+
+.buttonContainer {
+    width: 50%;
+}

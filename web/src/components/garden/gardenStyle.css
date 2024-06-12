@@ -1,0 +1,28 @@
+.addGardenLabel {
+    position: relative;
+    top: 20px;
+    left: 15px;
+    background-color: white;
+    padding: 0 5px;
+}
+
+.gardenList {
+    max-height: 70vh;
+    overflow: auto;
+}
+
+.addGarden {
+    width: 65%;
+}
+
+.addGardenButton {
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.addNewRoom {
+    width: 85%;
+}

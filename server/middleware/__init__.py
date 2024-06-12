@@ -1,0 +1,1 @@
+from middleware.auth import token_require

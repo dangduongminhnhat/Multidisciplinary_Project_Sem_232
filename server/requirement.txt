@@ -1,0 +1,7 @@
+flask
+flask-cors
+flask-restful
+dotenv
+pymongo
+adafruit-io
+pyjwt

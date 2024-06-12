@@ -1,0 +1,55 @@
+.adjustAutoMode {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    position: relative;
+    width: auto; 
+}
+
+.adjustAutoModeLabel {
+    position: absolute;
+    top: -0.75rem;
+    left: 0.75rem;
+    background-color: #fff;
+    padding: 0 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.adjustAutoModeInput {
+    width: 250px; 
+    padding: 1rem 0.75rem 0.5rem 0.75rem;
+    font-size: 1rem;
+}
+
+.adjustAutoModeButton {
+    margin-left: auto; 
+    align-self: center; 
+    padding-left: 1rem;
+    
+}
+
+.form-select, .form-control {
+    height: calc(3rem + 2px);
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.rounded-4 {
+    border-radius: 1rem;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.deviceList {
+    height: 65vh;
+    overflow: auto;
+}
